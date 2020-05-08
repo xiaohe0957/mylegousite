@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="legou_search_interface" />
+        <module name="legou_cart_interface" />
+        <module name="legou_sg_interface" />
+        <module name="legou_search_service" />
+        <module name="legou_cart_service" />
+        <module name="legou_sg_service" />
+        <module name="legou_search_web" />
+        <module name="legou_user_interface" />
+        <module name="legou_cart_web" />
+        <module name="legou_user_web" />
+        <module name="legou_pay_web" />
+        <module name="legou_pay_service" />
+        <module name="legou_user_service" />
+        <module name="legou_itempage_web" />
+        <module name="legou_domain" />
+        <module name="legou_pay_interface" />
+        <module name="legou_solrdata_init" />
+        <module name="legou_manager_web" />
+        <module name="legou_sms_web" />
+        <module name="legou_common" />
+        <module name="legou_shop_web" />
+        <module name="legou_portal_web" />
+        <module name="legou_dao" />
+        <module name="legou_itempage_service" />
+        <module name="legou_itempage_interface" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

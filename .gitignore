@@ -1,0 +1,26 @@
+# Project exclude paths
+/legou_cart_interface/target/
+/legou_cart_service/target/
+/legou_cart_web/target/
+/legou_common/target/
+/legou_dao/target/
+/legou_domain/target/
+/legou_itempage_interface/target/
+/legou_itempage_service/target/
+/legou_itempage_web/target/
+/legou_manager_web/target/
+/legou_pay_interface/target/
+/legou_pay_service/target/
+/legou_pay_web/target/
+/legou_portal_web/target/
+/legou_search_interface/target/
+/legou_search_service/target/
+/legou_search_web/target/
+/legou_sg_interface/target/
+/legou_sg_service/target/
+/legou_shop_web/target/
+/legou_sms_web/target/
+/legou_solrdata_init/target/
+/legou_user_interface/target/
+/legou_user_service/target/
+/legou_user_web/target/
