@@ -51,7 +51,7 @@ public class PayServiceImpl implements PayService {
         // 1.创建参数
         Map<String, String> param = new HashMap();
         // 公众号
-        param.put("appid", "wx0609f8351dca9750");
+        param.put("appid", "商户信息");
         // 商户号
         param.put("mch_id", "1536725911");
         // 随机字符串
@@ -71,7 +71,7 @@ public class PayServiceImpl implements PayService {
         param.put("trade_type", "NATIVE");
 
         //2.生成要发送的xml
-        String xmlParam = WXPayUtil.generateSignedXml(param, "txjavayingmulaoshi01234567891234");
+        String xmlParam = WXPayUtil.generateSignedXml(param, "账户信息");
         // 输出要发送的xml数据
         System.out.println(xmlParam);
         // 远程发送
@@ -107,7 +107,7 @@ public class PayServiceImpl implements PayService {
         // 调用微信的查询订单支付状态API
         Map<String, String> paramMap = new HashMap<String, String>();
         // 公众账号ID
-        paramMap.put("appid", "wx0609f8351dca9750");
+        paramMap.put("appid", "商户号");
         // 商户号
         paramMap.put("mch_id", "1536725911");
         // 商户的订单号
@@ -115,7 +115,7 @@ public class PayServiceImpl implements PayService {
         // 随机字符串
         paramMap.put("nonce_str", WXPayUtil.generateNonceStr());
         // 把paramMap转成xml  转xml时带有签名
-        String paramXml = WXPayUtil.generateSignedXml(paramMap, "txjavayingmulaoshi01234567891234");
+        String paramXml = WXPayUtil.generateSignedXml(paramMap, "商户号");
         // 设置参数
         httpClient.setXmlParam(paramXml);
         // 发送post请求
