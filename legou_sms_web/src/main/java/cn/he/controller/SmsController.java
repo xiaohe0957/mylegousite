@@ -40,8 +40,8 @@ public class SmsController {
             String domain = "dysmsapi.aliyuncs.com";
 
             // 此处需要替换成开发者自己的AK(在阿里云访问控制台寻找)，非常重要。不要泄露给其他人
-            String accessKeyId = "LTAI4G1dpqD8Q2ssk2z7UK6D";
-            String accessKeySecret = "KklcgDOy7NMupXtm3348k0hGMw1Rll";
+            String accessKeyId = "";
+            String accessKeySecret = "";
 
             //可自助调整超时时间
             System.setProperty("sun.net.client.defaultConnectTimeout", "10000");
@@ -61,7 +61,7 @@ public class SmsController {
             //必填:短信签名-可在短信控制台中找到
             request.setSignName("乐购网");
             //必填:短信模板-可在短信控制台中找到
-            request.setTemplateCode("SMS_189611533");
+            request.setTemplateCode("");
 
             //可选:模板中的变量替换JSON串,如模板内容为"亲爱的${name},您的验证码为${code}"时,此处的值为
             request.setTemplateParam("{\"code\":\""+code+"\"}");
