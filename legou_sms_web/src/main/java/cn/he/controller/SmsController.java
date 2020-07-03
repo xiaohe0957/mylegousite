@@ -16,8 +16,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 拓薪教育 -- 腾讯课程认证机构
- * 樱木老师
  *
  * 短信服务接口
  */
